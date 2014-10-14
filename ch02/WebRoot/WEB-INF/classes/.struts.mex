@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="org.zf.struts2.ch02.action" location="76,28" size="171,262">
+    <action name="ListAction" location="10,41" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="BookList.jsp" />
+      </result>
+    </action>
+    <action name="DetailAction" location="7,172" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="Bookdetail.jsp" />
+      </result>
+    </action>
+    <action name="DeleteAction" location="8,103" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="BookList.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="HelloWorld.jsp" path="/HelloWorld.jsp" location="609,279" size="150,55" />
+  <webResource name="BookList.jsp" path="/BookList.jsp" location="348,87" size="150,55" />
+  <webResource name="Bookdetail.jsp" path="/Bookdetail.jsp" location="348,215" size="150,55" />
+  <include file="struts-default.xml" location="607,233" size="150,30" />
+</Struts2Diagram>
+
